@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+.navigation {
+    background-color: blueviolet;
+    padding: 30px;
+}
+
+.navigation a {
+    color: aqua;
+}
+.navigation a:hover {
+    color: blanchedalmond;
+}
+.awesome {
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 57px;
+}
+.p_awesome {
+    font-size: 14px;
+    color: burlywood;
+    text-align: center;
+}
+.awesome_block {
+    display: inline-block;
+    width: 33%;
+    max-width: 350px;
+}
+.awesome_block h2 {
+    display: inline-block;
+    width: 33%;
+    max-width: 350px;
+    font-size: 16px;
+    margin: 10px;
+    padding: 25px;
+}
+.for_section {
+    width: 1000px;
+    margin: 0 auto;
+    font-size: 0;
+}
