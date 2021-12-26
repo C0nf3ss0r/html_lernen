@@ -2,6 +2,9 @@
     margin: 0;
     box-sizing: border-box;
 }
+body {
+    text-align: center;
+}
 .navigation {
     background-color: blueviolet;
     padding: 30px;
@@ -14,32 +17,92 @@
     color: blanchedalmond;
 }
 .awesome {
-    font-size: 30px;
+    font-size: 36px;
     text-transform: uppercase;
-    text-align: center;
     margin-top: 100px;
-    margin-bottom: 57px;
+    margin-bottom: 25px;
+}
+.hr_one {
+    display: inline-block;
+    border: 2px solid #E72424;
+    width: 64px;
+    margin: 0 auto 30px;
 }
 .p_awesome {
     font-size: 14px;
-    color: burlywood;
-    text-align: center;
+    color: #86878B;
+
 }
 .awesome_block {
     display: inline-block;
-    width: 33%;
-    max-width: 350px;
-}
-.awesome_block h2 {
-    display: inline-block;
-    width: 33%;
-    max-width: 350px;
+    width: 350px;
+    margin-right: 32px;
     font-size: 16px;
-    margin: 10px;
-    padding: 25px;
+    padding: 0 25px;
+}
+.awesome_block:last-child {
+    margin-right: 0;
+}
+.awesome_block h3 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.image_wrapper {
+    width: 23px;
+    border: 1px solid red;
+    border-radius: 50%;
+    height: 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 30px;
+    margin: 0 auto 20px;
+}
+.lamp {
+    background-image: url("./123.png");
+}
+.keyb {
+    background-image: url("./keyb.png");
+}
+.runa {
+    background-image: url("./runa.png");
+}
+.awesome_block p {
+    font-size: 14px;
+
 }
 .for_section {
-    width: 1000px;
-    margin: 0 auto;
+    width: 1399px;
+    margin: 100px auto 0;
     font-size: 0;
+}
+.for_section_too {
+    display: inline-block;
+    margin: 108px auto 0;
+    height: 325px;
+    width: 1399px;
+    background-repeat: no-repeat, repeat;
+    background-image: url("./noname.png"), url("./noname_element_1.png");
+    background-blend-mode: saturation;
+}
+.for_section_too h2 {
+    color: #FFFFFF;
+    font-size: 36px;
+    font-weight: 400;
+    margin-top: 76px;
+    margin-bottom: 78px;
+}
+.for_section_too p {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+.button {
+
+    background: none;
+    border: 1px solid #FFFFFF;
+    font-size: 15px;
+    color: #FFFFFF;
+    padding: 11px 26px;
+
 }
